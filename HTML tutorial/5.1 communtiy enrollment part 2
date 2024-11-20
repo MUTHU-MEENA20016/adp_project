@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<HTML><BODY>
+    
+    <FORM ACTION="/ACTION_PAGE.PHP">
+               <H2><CENTER><U>BECOMING A MEMBER OF OUR COMMUNITY</U></CENTER></H2><BR><BR>
+                
+                <CENTER><IMG SRC="C:\Users\meenu\Downloads\Screenshot_13-11-2024_11631_www.bing.com.jpeg"></CENTER>
+
+               <LABEL FOR="FNAME">FIRST NAME : </LABEL>
+               <INPUT TYPE="TEXT" ID="FNAME" PLACEHOLDER ="ENTER FIRST NAME"><BR><BR>
+
+               <LABEL FOR="LNAME">LAST NAME : </LABEL>
+               <INPUT TYPE="TEXT" ID="LNAME" PLACEHOLDER="ENTER LAST NAME"><BR><BR>
+
+               <LABEL FOR="EMAIL">EMAIL : </LABEL>
+               <INPUT TYPE="MAIL" ID="EMAIL" PLACEHOLDER="ENTER YOUR EMAIL ID"><BR><BR>
+
+                <LABEL FOR="PROF">PROFESSION : </LABEL>
+                <INPUT TYPE="TEXT" ID="PROF" PLACEHOLDER="YOUR PROFESSION"><BR><BR> 
+
+                <P>SELECT THE AGE RANGE</P>
+                <SELECT>
+                    <OPTION SELECT ENABLED>AGE</OPTION>
+                    <OPTION>1-17</OPTION>
+                    <OPTION>18-29</OPTION>
+                    <OPTION>30-39</OPTION>
+                    <OPTION>40-49</OPTION>
+                    <OPTION>50-59</OPTION>
+                    <OPTION>60-69</OPTION>
+                </SELECT><BR><BR>
+
+                <LABEL FOR="MOBNUM">MOBILE NUMBER : </LABEL>
+                <INPUT TYPE="TEXT" ID="MOBNUM" PLACEHOLDER="ENTER MOBILE NO."><BR><BR>
+
+                <LABEL FOR="CONTIME">PREFERRED CONTACT TIME:</LABEL>
+                <INPUT TYPE="TEXT" ID="CONTIME" PLACEHOLDER="PREFERRED CONTACT TIME"><BR><BR>   
+
+                <P>SELECT THE GENDER :</P>
+                <input type="RADIO" id="MALE" name ="G">
+                <label for ="MALE">MALE </label><br>
+                <input type="RADIO" id="FEMALE" name="G" >
+                <label for ="FEMALE">FEMALE</label><br>
+                <input type="RADIO" id="TRANS" name="G">
+                <label for ="TRANS">TRANSGENDER</label><br>
+
+                <P>CHOOSE THE QUALITIES YOU POSSESS : </P>
+                <INPUT TYPE="CHECKBOX" ID="Q1" NAME="1">
+                    <LABEL FOR="Q1">COMMUNICATION</LABEL><BR>
+                <INPUT TYPE="CHECKBOX" ID="Q2" NAME="2">
+                    <LABEL FOR="Q2">SOCIAL AWARENESS</LABEL><BR>
+                <INPUT TYPE="CHECKBOX" ID="Q3" NAME="3">
+                    <LABEL FOR="Q3">CRITICAL THINKING</LABEL><BR>
+                <INPUT TYPE="CHECKBOX" ID="Q4" NAME="4">
+                    <LABEL FOR="Q4">LEADERSHIP</LABEL><BR>
+                <INPUT TYPE="CHECKBOX" ID="Q5" NAME="5">
+                    <LABEL FOR="Q5">PERSUASION</LABEL><BR>
+                <INPUT TYPE="CHECKBOX" ID="Q6" NAME="6">
+                    <LABEL FOR="Q6">PROFESSIONALISM</LABEL><BR><BR>
+                <INPUT TYPE="CHECKBOX" ID="Q7" NAME="7">
+                        <LABEL FOR="Q6">TEAMWORK</LABEL><BR><BR>
+
+
+                <P>WHY YOU PREFER TO BE A PART OF SOCIAL SOLIDARIANS:</P>
+                <LABEL FOR="INTEREST">OPINION: </LABEL>
+                <INPUT TYPE="TEXT" ID="INTEREST" STYLE="WIDTH:1000PX;HEIGHT:100PX"><BR><BR>
+
+                <p>CLICK ON THE "CHOOSE FILE" BUTTON TO UPLOAD THE CURRENT EMPLOYMENT DOCUMENT</p>
+                <INPUT TYPE="FILE" ID="MYJOB" ><BR><BR><BR><BR><BR>
+                     
+                    <INPUT TYPE="SUBMIT" VALUE="SUBMIT THE REGISTRATION FORM"><BR>
+
+
+                      
+               
+        </FORM>
+</BODY>                                                                                                                                                                                              
+</HTML>

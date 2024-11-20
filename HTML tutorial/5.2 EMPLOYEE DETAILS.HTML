@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>EMPLOYEE DETAILS</TITLE>
+    </HEAD>
+    <BODY>
+        <FORM>
+            <CENTER>
+                <H2>EMPLOYEE INFORMATION FORM</H2><HR>
+            </CENTER>
+                    <B><U>PERSONAL INFORMATION</U></B><BR><BR>
+            <LABEL FOR="FNAME">FIRST NAME : </LABEL>
+               <INPUT TYPE="TEXT" ID="FNAME" PLACEHOLDER ="ENTER FIRST NAME" PATTERN ="[A-Za-z]+" REQUIRED><BR><BR>
+
+               <LABEL FOR="LNAME">LAST NAME : </LABEL>
+               <INPUT TYPE="TEXT" ID="LNAME" PLACEHOLDER="ENTER LAST NAME" REQUIRED><BR><BR>
+
+               <LABEL FOR="EMAIL">EMAIL : </LABEL>
+               <INPUT TYPE="MAIL" ID="EMAIL" PLACEHOLDER="ENTER YOUR EMAIL ID" REQUIRED><BR><BR>
+
+                <LABEL FOR="P.NO">MOBILE NUMBER : </LABEL>
+                <INPUT TYPE="NUMBER" ID="P.NO" PLACEHOLDER="MOBILE NUMBER" MAXLENGTH=10 REQUIRED><BR><BR>
+
+                <LABEL FOR="RESADD">RESIDENTIAL ADDRESS : </LABEL>
+                <INPUT TYPE="TEXT" ID="REDADD" PLACEHOLDER="CURRENT ADDRESS" STYLE="HEIGHT:100PX;WIDTH:450PX" REQUIRED><BR><BR>
+
+                <LABEL FOR="PERADD">PERMANENT ADDRESS : </LABEL>
+                <INPUT TYPE="TEXT" ID="PERADD" PLACEHOLDER="PERMANENT ADDRESS" STYLE="HEIGHT:100PX;WIDTH:450PX" REQUIRED><BR><BR>
+
+                    SELECT YOUR GENDER<BR>
+
+                
+                        <INPUT TYPE="RADIO" ID="GRM" NAME="G"> 
+                            <LABEL FOR="GRM">MALE</LABEL>
+                        <INPUT TYPE="RADIO" ID="GRF" NAME="G"> 
+                            <LABEL FOR="GRF">FEMALE</LABEL>
+                        <INPUT TYPE="RADIO" ID="GRT" NAME="G">     
+                            <LABEL FOR="GRT">PREFER NOT TO SAY</LABEL><BR><BR>
+                             
+
+                <B><U>EMPLOYMENT INFORMATION</U></B><BR><BR>
+
+                <LABEL FOR="TIT">TITLE : </LABEL>
+                <INPUT TYPE="TEXT" ID="TIT" PLACEHOLDER="TITLE" REQUIRED><BR><BR>
+                DEPARTMENT : 
+                <SELECT>
+                    <OPTION SELECT ENABLED>CHOOSE YOUR DEPARTMENT</OPTION>
+                    <OPTION>PRODUCTION</OPTION>
+                    <OPTION>HUMAN RESOURCES</OPTION>
+                    <OPTION>FINANCIAL ACCOUNTING</OPTION>
+                    <OPTION>RESEARCH AND DEVELOPMENT </OPTION>
+                    <OPTION>IT</OPTION>
+                    <OPTION>SALES</OPTION>
+                    <OPTION>MARKETING</OPTION>
+                </SELECT><br><br>
+
+                <LABEL FOR="HDATE">HIRE DATE : </LABEL>
+                <INPUT TYPE="TEXT" ID="HDATE" PLACEHOLDER="mm/dd/yy" REQUIRED><BR><BR>
+
+                    EMPLOYMENT STATUS : 
+                    <SELECT>
+                        <OPTION SELECT ENABLED>CHOOSE YOUR EMPLOYMENT STATUS</OPTION>
+                        <OPTION>FULL TIME</OPTION>
+                        <OPTION>PART TIME</OPTION>
+                        <OPTION>INTERN</OPTION>
+                        <OPTION>CONTRACTOR</OPTION>
+                        <OPTION>OTHER</OPTION>
+                    </SELECT><br><br>
+
+                <B><U>EDUCATION</U></B><BR><BR>
+                    
+                    <LABEL FOR="QUALITY">HIGHEST EDUCATION : </LABEL>
+                    <INPUT TYPE="TEXT" ID="QUALITY" PLACEHOLDER="HIGHEST EDUCATION" STYLE="WIDTH:400PX;HEIGHT:70PX" REQUIRED>
+
+                    <LABEL FOR="INS">INSTITUTION NAME : </LABEL>
+                    <INPUT TYPE="TEXT" ID="INS" PLACEHOLDER="INSTITUTION NAME" STYLE="WIDTH:400PX;HEIGHT:70PX" REQUIRED><BR><BR>
+
+                    <LABEL FOR="MAINCORE">FIELD OF STUDY : </LABEL>
+                    <INPUT TYPE="TEXT" ID="MAINCORE" PLACEHOLDER="MAJOR" STYLE="WIDTH:300PX;HEIGHT:50PX" REQUIRED><BR><BR>
+
+                    <LABEL FOR="DEG">DEGREE EARNED : </LABEL>
+                    <INPUT TYPE="TEXT" ID="DEG" PLACEHOLDER="DEGREE" STYLE="WIDTH:300PX;HEIGHT:50PX" REQUIRED><BR><BR>
+
+                    <B><U>PROFESSIONAL EXPERIENCE</U></B><BR><BR>
+
+                    <LABEL FOR="PREVEXP">PREVIOUS WORK EXPERIENCE:</LABEL>
+                    <INPUT TYPE="TEXT" ID="PREVEXP" STYLE="HEIGHT:100PX;WIDTH:1000PX" ACCEPT=".PDF" REQUIRED><BR><BR>
+                   
+                    <LABEL FOR="PROOF">ATTACH YOUR ID PROOF:</LABEL>
+                    <INPUT TYPE="FILE" ID="PROOF" ACCEPT=".PDF,.DOC,.DOCX" REQUIRED ><BR><BR>
+                   
+                    <LABEL FOR="EXP">ATTACH YOUR EXPERIENCE CERTIFICATE:</LABEL>
+                    <INPUT TYPE="FILE" ID="EXP" REQUIRED><BR><BR>  
+
+                    WHICH DO YOU PREFER FOR ONLINE OR VIRTUAL MEETINGS : <BR>
+                    <INPUT TYPE="CHECKBOX" ID="GM" NAME="1">
+                    <LABEL FOR="GM">GOOGLE MEET</LABEL><BR>
+                    <INPUT TYPE="CHECKBOX" ID="Z" NAME="2">
+                    <LABEL FOR="Z">ZOOM</LABEL><BR>
+                    <INPUT TYPE="CHECKBOX" ID="S" NAME="2">
+                    <LABEL FOR="S">SKYPE</LABEL><BR>
+                    <INPUT TYPE="CHECKBOX" ID="F" NAME="2">
+                    <LABEL FOR="F">FACEBOOK MESSENGER</LABEL><BR>
+                    <INPUT TYPE="CHECKBOX" ID="Z" NAME="2">
+                    <LABEL FOR="Z">OTHER</LABEL><BR><BR>
+
+            <CENTER><INPUT TYPE = "SUBMIT" VALUE = "SUBMIT THE FORM"></CENTER>
+                
+        </FORM>
+    </BODY>
+</HTML>
+
